@@ -1,8 +1,12 @@
 import React from 'react'
 
-const Card = () => {
+const Card = ({product}) => {
   return (
-    <div><h1>CARD</h1></div>
+    <div>
+      <img src={`../images/${product.imageUrl}` } alt="nature"/>
+      <h1>{product.title}</h1>
+      <h1>{product.description}</h1>
+    </div>
   )
 }
 

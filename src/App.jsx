@@ -9,7 +9,7 @@ function App() {
   return (
     <div className="App">
       <Nav/>
-     <Card />
+   {data? data.map(product=>(<Card product={product} key={product.title}/>)): "Loading..."}
     </div>
   );
 }

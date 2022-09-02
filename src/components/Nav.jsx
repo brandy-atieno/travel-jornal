@@ -1,18 +1,25 @@
-import React from 'react'
-import { MDBContainer,
-    MDBNavbar,
-    MDBNavbarBrand
-  } from 'mdb-react-ui-kit';
+import React, {useState} from 'react'
+import {
+  MDBNavbar,
+  MDBContainer,
+ 
+  MDBNavbarBrand,
+
+} from 'mdb-react-ui-kit';
   const Nav = () => {
-  return (
-    <div className='nav'>
-      <MDBNavbar light bgColor='light'>
+ 
+   
+    //      </div>
+    return(
+    <>
+    <MDBNavbar expand='lg' dark bgColor='primary'>
         <MDBContainer fluid>
           <MDBNavbarBrand href='#'>BRANDY ADVENTURES</MDBNavbarBrand>
-        </MDBContainer>
+         
+         </MDBContainer>
       </MDBNavbar>
 
-         </div>
+    </>
   )
 }
 
