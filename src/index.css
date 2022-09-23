@@ -1,8 +1,35 @@
+*{
+  box-sizing: border-box;
+}
+.App p {
+  margin:10px 0 0 10px;
+  text-align: center;
+  font-weight:700;
+  font-size:30px;
 
+}
+.card{
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-wrap: wrap;
+  flex-direction: column;
+}
+.card img{
+  margin: 10px 0 0 10px;
+  width:50%;
+  height:20%;
+  border-radius: 20px;
+}
+.card h1{
+ margin: 10px 0 0 10px;
+ font-size: 20px;
+ font-weight: 600;
+}
 
-body{
-  margin: 0;
-  font-family: Roboto, Helvetica, Arial, sans-serif;
-  
+.card p{
+  position: block;
+  font-size: 20px;
+  font-weight: 400;
 }
 

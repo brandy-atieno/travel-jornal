@@ -9,7 +9,7 @@ import {
   const Nav = () => {
  
    
-    //      </div>
+  
     return(
     <>
     <MDBNavbar expand='lg' dark bgColor='primary'>
